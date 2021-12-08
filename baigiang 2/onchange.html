@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hoc</title>
+</head>
+<body>
+<p>Chọn tên</p>
+<select id="chon" onchange="ten()">
+    <option value="Trang">Trang</option>
+    <option value="Hien">Hien</option>
+    <option value="Lanh">Lanh</option>
+    <option value="Thao">Thao</option>
+</select>
+
+<script>
+function ten() {
+    var selectedvalue = document.getElementById("chon").value;
+    alert(selectedvalue);
+}
+
+</script>
+
+</body>
+</html>

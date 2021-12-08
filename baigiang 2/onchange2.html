@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hoc</title>
+</head>
+<body>
+<p>Chọn tên</p>
+<select id="chon">
+    <option value="Trang">Trang</option>
+    <option value="Hien">Hien</option>
+    <option value="Lanh">Lanh</option>
+    <option value="Thao">Thao</option>
+</select>
+
+<script>
+    var selectedElement = document.getElementById("chon");
+    selectedElement.addEventListener("change",doi);
+    function doi() {
+        var selectvalue = document.getElementById("chon").value;
+        alert(selectvalue);
+    }
+</script>
+
+</body>
+</html>

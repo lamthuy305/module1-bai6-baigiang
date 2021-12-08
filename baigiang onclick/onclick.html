@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Onclick</title>
+</head>
+<body>
+<p onclick="nhan()">Nhấn đi, chờ chi</p>
+<p id="demo">Click</p>
+</body>
+</html>
+<script>
+    function nhan() {
+        alert( "Chúc mừng, bạn đã bị lừa");
+    }
+
+var demo = document.getElementById("demo");
+    demo.addEventListener("click",a);
+    function a() {
+        alert("Đù má")
+    }
+
+</script>
